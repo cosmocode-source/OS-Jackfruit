@@ -545,6 +545,7 @@ does not punish processes for doing I/O. A process that sleeps frequently is not
 penalised — in fact it is advantaged by receiving a fresh vruntime budget when it
 wakes. This is what makes Linux responsive for interactive and I/O-heavy workloads
 even when CPU-bound background work is running concurrently.
+
 ---
 
 ## 5. Design Decisions and Tradeoffs
